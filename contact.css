@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+body{
+    background: #ffd71b;
+}
+
+#Contactss {
+
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(img/img-6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 90%);
+    min-height: 90vh;
+    z-index: 1;
+
+
+}
+
+.connect {
+    width: 100%;
+    background: #ffd71b;
+    color:white;
+  
+    
+
+}
+.form-boxxx{
+    border: 1px solid black;
+    padding: 5rem 5rem;
+    background: #000;
+    box-shadow: 0 0 70px rgba(0,0,0,.5);
+    position: relative;
+    bottom: 25rem;
+}
+.form-boxxx textarea{
+    width: 100%;
+}
+.f-input{
+    background: #222;
+    padding: 1rem .5rem;
+    font-size: 1.7rem;
+    border: 1px solid #ffd71b;
+    margin-bottom: 1rem;
+    
+}
+.fg label{
+    font-size: 1.7rem;
+    margin: .8rem 0;
+}
+
+
+.form-boxxx button{
+    width: 100%;
+    margin-top: 3rem ;
+    background: #ffd71b;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    font-family: 'Staatliches', cursive;
+    border-radius: 0;
+
+}
+.form-boxxx-r{
+    padding: 0 4rem;
+    background: #ffd71b;
+    color: black;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 13rem;
+}
+.form-boxxx-r h1{
+    font-family: 'Staatliches', cursive;
+
+    font-size: 3.4rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.form-boxxx-r .fa{
+    font-size: 2.7rem;
+    margin: 2rem 0;
+    margin-right: 2.5rem;
+
+}
+.form-boxxx-r span{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+
